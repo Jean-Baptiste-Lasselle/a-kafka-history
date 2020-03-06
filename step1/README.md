@@ -218,3 +218,5 @@ step1_zookeeper_1   /etc/confluent/docker/run   Exit 143
 >  Kafka uses `ZooKeeper` to manage the cluster. `ZooKeeper` is used to coordinate the `brokers/cluster` topology. `ZooKeeper` is a consistent file system for configuration information. `ZooKeeper` gets used for leadership election for `Broker Topic Partition Leaders`._**May 11, 2017**_
 >
 >
+
+* launch  real kafka cluster : https://github.com/simplesteph/kafka-stack-docker-compose
