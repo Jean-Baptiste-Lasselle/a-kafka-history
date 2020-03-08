@@ -29,6 +29,13 @@ $ docker-compose exec kafka-1 kafka-console-consumer \
 
 # Last Error to repair the initial `docker-compose up -d`
 
+Gathered metrics are coming from the docker oreinted telegraf plugin https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker .This scenario shows howtelegraf data is first streamed to a topic, then restreamed by a kafka producer, to multiple topics, divided in three parts : 
+  * a first part of the telegraf data is reatreamed to a first topic
+  * a second part of the telegraf data is reatreamed to a second topic
+  * a third part of the telegraf data is reatreamed to a third topic
+  * it 's a bit like "categories", never the less, it is like you app is interested only in one special part of the telegraf data, so consumes only the "most interesting `kafka topic`" 
+
+
 ```bash
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom (2.3 kB at 235 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.12.4/surefire-junit4-2.12.4.jar
