@@ -79,7 +79,7 @@ jbl@poste-devops-typique:~/a-kafka-history/step6$
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom
 ```
   * second thing, surfire plugin version is not set in pom.xml, so i defaults to a default value, induced by the maven version itelf, which is maven `3.5` (pretty up to date, latest is `3.6` when I write this in `march 2020`) which seems to be `2.12.4`.
-  * In `march 2020`, maven surefire plugin latest release is version `3.0.0-M4`, and to install this version we should add the following to the `pom.xml` for the `SimpleStream` java executable : 
+  * In `march 2020`, maven surefire plugin latest release is version `3.0.0-M4`, and to install this version we should add the following to [the `pom.xml` for the `SimpleStream` java executable](https://github.com/Jean-Baptiste-Lasselle/a-kafka-history/blob/master/step6/streams/pom.xml) : 
   
 ```xml
     <project>
