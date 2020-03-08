@@ -26,3 +26,9 @@ $ docker-compose exec kafka-1 kafka-console-consumer \
 # The full action ?
 
 [![screencast](https://asciinema.org/a/jfXXzDMSrGNplXj3MLdPOGEAt.png)](https://asciinema.org/a/jfXXzDMSrGNplXj3MLdPOGEAt?autoplay=1)
+
+
+# What Client to use instead of the `Java` here provided example
+
+* Exemple de Kafka Consumer / Kafka Producer en Type Script : https://github.com/CoNarrative/kafka-typescript whi I privately backed up at https://gitlab.com/second-bureau/pegasus/pokus/exterieur/kafka/kafka-typescript.git 
+
