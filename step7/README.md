@@ -5,6 +5,7 @@ Do the same thing :
   * for an app I programmed my self
   * but the ap is not java, it  is `nodejs`, so I will need to find what is the `jolokia` for `nodejs`, which is : https://www.influxdata.com/blog/instrumenting-your-node-express-application/
   * replace the java consumers and producers, by proper `typescript rxjs` kafka clients, consumers and producers (those setup with steps 1 to 6)
+  * use https://github.com/idanto/express-node-metrics
   
 
 # Objective 
